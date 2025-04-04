@@ -29,7 +29,7 @@ git merge test_valide
     
 ### Donne la(les) ligne(s) de commande(s) bash pour afficher le texte suivant : A REVOIR 
 
-echo -e "Malgré le prix élevé de 100$, il a dit "Bonjour !\" au vendeur :\n-\"Bonjour est-ce que ce clavier fonctionne bien ?\"\n- \"Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\\ !\"\n- \"Même des tildes ~ ?\"\n- \"Evidemment \!"
+echo -e 'Malgré le prix élevé de 100\$\, il a dit \"Bonjour !\" au vendeur :\n-\"Bonjour est-ce que ce clavier fonctionne bien \?\"\n- \"Evidemment \! On peut tout écrire avec\, que ce soit des pipe \| ou bien des backslash \\\ \!\"\n- \"Même des tildes \~ \?\"\n- \"Evidemment \!'
 
 
 ### La commande `jobs -l` donne le résultat ci-dessous :
@@ -41,10 +41,13 @@ jobs -l | grep "gedit"
 
 ### Quels matériels réseaux sont sur la couche 2 et la couche 3 du modèle OSI ? Donne leurs spécificités.  
 - Couche 2 : Data Link  
-  Nous y trouvons les switchs et cartes réseaux : adresse les interfaces avec les adresses MAC  
+  Nous y trouvons les switchs et cartes réseaux : adresse les interfaces avec les adresses MAC.
+  Les switchs permettent la transmissions de packets à l'interieur d'un réseau.
+  La carte réseau permet l'envoie et la réception des données.   
 
 - Couche 3 : Network  
-  Nous y trouvons des routeurs  : determine le meilleur chemin pour transmettre les packets  
+  Nous y trouvons des routeurs  : determine le meilleur chemin pour transmettre les packets
+  Le routeur permets aux packets de sortir du réseau. 
    
    
 ### Quels sont les équivalent PowerShell des commandes bash cd, cp, mkdir, ls.
