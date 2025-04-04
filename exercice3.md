@@ -53,7 +53,7 @@ jobs -l | grep "gedit"
 ### 8. Quels sont les équivalent PowerShell des commandes bash cd, cp, mkdir, ls.
 - cd : SetLocation  
 - cp : CopyItem  
-- mkdir : New-Item  
+- mkdir : New-Item     
 - ls : Get-ChildItem
 
 
