@@ -30,5 +30,5 @@ function adduser()
 
 for user in echo $*; 
 do
-    adduser
+    adduser $user
 done
